@@ -46,16 +46,15 @@ apk add prismlauncher
 
 There are several AUR packages available:  
 [![prismlauncher](https://img.shields.io/badge/aur-prismlauncher-blue)](https://aur.archlinux.org/packages/prismlauncher/)  
-[![prismlauncher-bin](https://img.shields.io/badge/aur-prismlauncher--bin-blue)](https://aur.archlinux.org/packages/prismlauncher-bin/)  
+[![prismlauncher-qt5](https://img.shields.io/badge/aur-prismlauncher--qt5-blue)](https://aur.archlinux.org/packages/prismlauncher-qt5/)  
 [![prismlauncher-git](https://img.shields.io/badge/aur-prismlauncher--git-blue)](https://aur.archlinux.org/packages/prismlauncher-git/)
+[![prismlauncher-qt5-git](https://img.shields.io/badge/aur-prismlauncher--qt5--git-blue)](https://aur.archlinux.org/packages/prismlauncher-qt5-git/)
   
 ## Installing with an AUR helper
 
 ```bash
 # stable source package:
 yay -S prismlauncher
-# stable binary package:
-yay -S prismlauncher-bin
 # latest git package:
 yay -S prismlauncher-git
 ```
@@ -121,7 +120,7 @@ sudo dnf install prismlauncher-qt5-nightly
 
 <div class="infobox top">
 
-# <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (x86_64)
+# <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (x86_64, ARM64)
 
 We use [makedeb](https://docs.makedeb.org/) for our Debian packages.  
 Several MPR packages are available:
@@ -139,7 +138,7 @@ sudo apt update
 sudo apt install prismlauncher
 ```
 
-NOTE: Prebuilt MPR only officially supports Debian 11, Ubuntu 20.04 and Ubuntu 22.04.
+Prebuilt MPR supports Debian 11, 12, and Ubuntu 20.04, 22.04, 22.10, and 23.04.
 
 ## Installing with mist, the MPR CLI
 
@@ -234,7 +233,7 @@ zypper install prismlauncher
 zypper install prismlauncher-nightly
 # stable releases (Qt5 version, available for Leap and Tumbleweed)
 zypper install prismlauncher-qt5
-# latest builds (avalible for Leap and Tumbleweed)
+# latest builds (available for Leap and Tumbleweed)
 zypper install prismlauncher-qt5-nightly
 ```
   
